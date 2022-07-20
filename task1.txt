@@ -1,0 +1,33 @@
+1.What is html?
+	1.Hyper Text Markup Language
+	2.It is used for creating web pages and web applications.
+	3.Browser Known language is html,therefore we are using html.
+
+2.What is Elements?
+.-	It says to the browser about the structure and the apperance of the Html document.
+
+3.What is Attributes?
+	It says about the additional Information of an element or it says about the behaviour of an element.
+	Each attributes applied with starting tag.
+
+4.Basic Structure of Html File?
+	It Contains the Series of Element. A line containing HTML versions information, a declarative header section, a body, which contains the document's 
+actual content.i.e
+		1.The main COntainer
+		2.The head section
+		3.The body Section
+
+5.List out some tags?
+
+		1.<p></p>  -  paragraph
+		2.<br>     -  break
+		3.<title>  -  title
+		4.<tr></tr>-  table row
+		6.<img>    -  image
+		7.<a>	   -  anchor
+		8.<li></li>-  list
+		9.<ul></ul>-  unordered list
+		10.<ol></ol>- ordered list
+		11.<b></b> -  bold
+		12.<strong></strong>- strong
+		 
