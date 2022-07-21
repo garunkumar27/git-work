@@ -4,7 +4,9 @@
 	3.Browser Known language is html,therefore we are using html.
 
 2.What is Elements?
-.-	It says to the browser about the structure and the apperance of the Html document.
+.-	1.An HTML element is a component of an HTML document that tells a web browser how to structure and
+interpret a part of the HTML document. 
+	2.HTML elements can contain formatting instructions, semantic meaning, and content.
 
 3.What is Attributes?
 	It says about the additional Information of an element or it says about the behaviour of an element.
@@ -12,10 +14,19 @@
 
 4.Basic Structure of Html File?
 	It Contains the Series of Element. A line containing HTML versions information, a declarative header section, a body, which contains the document's 
-actual content.i.e
-		1.The main COntainer
-		2.The head section
-		3.The body Section
+actual content.
+	It contains,
+		    <!DOCTYPE html> -Version of the html
+		    <html>
+		    <head>
+   			 <!DOCTYPE html>
+    			 <html lang="en"> -html is written in which language(en-english language)
+		    <head>
+			 <meta> -it defines the metadata about an HTML Element
+		    </head>
+		    <body>
+			It contains the actual content
+		    </body>
 
 5.List out some tags?
 
