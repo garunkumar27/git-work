@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- dl,dt,dt tags are used to list the element-->
+    <dl>
+        <dt>Chocolate</dt>
+        <dd>Kitkat</dd>
+        <dd>5star</dd>
+    </dl>
+
+    <!-- del & ins tag is used to delete and insert content amd inserted content is get underlined -->
+    <p>Arun <del>Loves</del><ins> Likes</ins> Travelling</p>
+
+    <!-- details tag is helps the user to open and close the content on demand -->
+    <details>
+        <summary>My Family</summary>
+        <p>Family is a God's gift</p>
+    </details>
+
+    <!-- dfn-definition tag is used to give the definition for the content in the <dfn> tag-->
+    <p><dfn>Friends </dfn>A good friend helps to imorove our skills to next level </p>
+    <!-- dialog tag is used to present a bpx over the text-->
+    <dialog open>
+        Hi Good Morning
+    </dialog>
+
+    <!-- Instead of dir tag ul tag is used-->
+    <ul style="line-height: 50px;">
+        <li>Arun</li>
+        <li>Kumar</li>
+    </ul>
+
+    <!-- div tag acts as a container for html doc  -->
+    <div>
+        Sivasailam
+    </div>
+
+    <!-- em tag is used for Formatting Schematic content i.e in italics -->
+    <p>I Love <em>My Native </em>Place</p>
+
+    <!-- To link a external device i.e audio,video,image  -->
+    <embed type="image/jpg" src="../arun_practice/web/pic/chefs-1.jpg" width="300" height="200">
+    
+    <!-- fieldset used to make an outline for the form
+         legend  is a caption placed above the form -->
+    <form action=""></form>
+    <fieldset>
+        <legend>Arun Kumar</legend>
+        <label for="fname"> Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="number">Mobile:</label>
+        <input type="number" id="number" name="number">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+    </fieldset>
+
+    <!-- To add Caption below the image -->
+    <figure>
+        <img src="../arun_practice/web/pic/chefs-2.jpg" width="300" height="300">
+        <figcaption>FIG 2 Cheff</figcaption>
+    </figure>
+
+    <!-- It is a Self-Contained Content i.e fig present with the flow of content 
+         if it get removed the flow of content get affected    -->
+    <figure>
+        <img src="../arun_practice/web/pic/chefs-3.jpg" width="300" height="300">
+    </figure>
+
+    <!--Present at the bottom of the page -->
+    <footer>
+        Sivasailam,
+        Tenkasi.
+    </footer>
+     <!-- To Collect Input from the User -->
+    <form action="/action_page.php" method="get">
+        <!-- label for several elements -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <label for="City"></label>
+    <!-- select- to create a dropdown list -->
+    <select name="Place" id="place">
+    <!--option- defines option in a selection list -->
+        <option value="palce">Tenkasi</option>
+        <option value="place">Tirunelveli</option>
+    </select>
+    
+    <select name="country" id="country">
+        <!--optgroup- Group related option -->
+        <optgroup label="country">
+            <option value="place">India</option>
+            <option value="place">Pakistan</option>
+        </optgroup>
+    </select>
+    
+    <!-- heading  -->
+    <h1>India</h1>
+    <h2>Tamilnadu</h2>
+    <h3>Tenkasi</h3>
+    <h4>Alwarkurichi</h4>
+    <h5>Sivasailam</h5>
+    <h6>Pudukudiyiruppu</h6>
+    
+    <!-- To Highlight the content (colored highlight)-->
+    <mark>arun</mark>
+   
+    <!--Add navigation links  -->
+    <nav>
+        <a href="/html/">HTML</a>
+    </nav>
+
+    <!-- Used to link a doc \image only using data(attribute) -->
+     <object data="../arun_practice/web/pic/fruits.jpg" width="500" ></object>
+
+     <!-- To List the doc in a number/Alphabet -->
+     <ol reversed="number">
+        <li>Arun</li>
+        <li>Kumar</li>
+     </ol>
+
+     <!-- iframe-It's a inline frame.
+        To link a another doc into current html doc -->
+     <iframe src="https://www.w3schools.com" title="W3Schools"></iframe>
+
+     <!-- i-italic tag -->
+     <p>Arun Kumar <i>Front End Developer</i> in Fabevy</p>
+
+     <!-- meta-contain the data for html doc-->
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meter- To know the range/fractional value -->
+    <label for="disk_c">Disk usage C: </label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter>
+
+    <!-- map-image map with clickable area -->
+    <map name="">
+        <area shape="" coords="" href="" alt="">
+    </map>
+
+    <!-- output-represent the result of calculation -->
+    <output name="">name</output>
+
+    <!-- 
+        param-parameter for an <object> element
+     -->
+     <param name="autoplay" value="true">
+</body>
+
+</html>
+</head>
+
+</html>
