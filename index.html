@@ -48,7 +48,7 @@
 
     <!-- To link a external device i.e audio,video,image  -->
     <embed type="image/jpg" src="../arun_practice/web/pic/chefs-1.jpg" width="300" height="200">
-    
+
     <!-- fieldset used to make an outline for the form
          legend  is a caption placed above the form -->
     <form action=""></form>
@@ -80,7 +80,7 @@
         Sivasailam,
         Tenkasi.
     </footer>
-     <!-- To Collect Input from the User -->
+    <!-- To Collect Input from the User -->
     <form action="/action_page.php" method="get">
         <!-- label for several elements -->
         <label for="fname">First name:</label>
@@ -93,11 +93,11 @@
     <label for="City"></label>
     <!-- select- to create a dropdown list -->
     <select name="Place" id="place">
-    <!--option- defines option in a selection list -->
+        <!--option- defines option in a selection list -->
         <option value="palce">Tenkasi</option>
         <option value="place">Tirunelveli</option>
     </select>
-    
+
     <select name="country" id="country">
         <!--optgroup- Group related option -->
         <optgroup label="country">
@@ -105,7 +105,7 @@
             <option value="place">Pakistan</option>
         </optgroup>
     </select>
-    
+
     <!-- heading  -->
     <h1>India</h1>
     <h2>Tamilnadu</h2>
@@ -113,33 +113,33 @@
     <h4>Alwarkurichi</h4>
     <h5>Sivasailam</h5>
     <h6>Pudukudiyiruppu</h6>
-    
+
     <!-- To Highlight the content (colored highlight)-->
     <mark>arun</mark>
-   
+
     <!--Add navigation links  -->
     <nav>
         <a href="/html/">HTML</a>
     </nav>
 
     <!-- Used to link a doc \image only using data(attribute) -->
-     <object data="../arun_practice/web/pic/fruits.jpg" width="500" ></object>
+    <object data="../arun_practice/web/pic/fruits.jpg" width="500"></object>
 
-     <!-- To List the doc in a number/Alphabet -->
-     <ol reversed="number">
+    <!-- To List the doc in a number/Alphabet -->
+    <ol reversed="number">
         <li>Arun</li>
         <li>Kumar</li>
-     </ol>
+    </ol>
 
-     <!-- iframe-It's a inline frame.
+    <!-- iframe-It's a inline frame.
         To link a another doc into current html doc -->
-     <iframe src="https://www.w3schools.com" title="W3Schools"></iframe>
+    <iframe src="https://www.w3schools.com" title="W3Schools"></iframe>
 
-     <!-- i-italic tag -->
-     <p>Arun Kumar <i>Front End Developer</i> in Fabevy</p>
+    <!-- i-italic tag -->
+    <p>Arun Kumar <i>Front End Developer</i> in Fabevy</p>
 
-     <!-- meta-contain the data for html doc-->
-     <meta charset="UTF-8">
+    <!-- meta-contain the data for html doc-->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -158,7 +158,145 @@
     <!-- 
         param-parameter for an <object> element
      -->
-     <param name="autoplay" value="true">
+    <param name="autoplay" value="true">
+
+    <!-- pre-Preformated text i.e -->
+    <pre>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+         Amet nam, est, eveniet vero voluptatum dolorum facilis 
+         rerum doloremque repellendus accusamus laborum.</pre>
+
+    <!--samp-Sample output from computer code  -->
+    <p>Message<samp> File not Found</samp></p>
+
+    <!-- var-variable in mathematics expression or Programming is in italics -->
+    <p>Are of Triangle is 1/2 *<var>b</var>* <var>h</var></p>
+
+    <!-- progress-itrepresent completion progress of task -->
+    <label for="file">Downloading Progress:</label>
+    <progress id="file" value="50" max="100">50%</progress> <br>
+
+    <!-- ruby,rt,tp -->
+    <ruby>
+        漢 <rp>(</rp>
+        <rt>ㄏㄢˋ</rt>
+        <rp>)</rp><br>
+    </ruby>
+
+    <!-- <s>- markup text no longer correct i.e line strike on text -->
+    <s>Arun Kumar</s>
+
+    <!-- <script>-Used to link a client side script (Javascript) -->
+    <h1>The script element</h1>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+
+    <!-- section-It's a section for container -->
+    <section>
+        Arun Kumar G
+    </section>
+
+    <!-- <select>-to create a dropdown list & to get input from user -->
+    <label for="cars">Choose a car:</label>
+
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <!-- <small>-to achieve a text into smaller size -->
+    <p>Hi I'm AK<small> Arun Kumar</small></p>
+
+    <!-- <source>-to get a multimedia link i.e video audio & Picture -->
+    <audio controls>
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/mpeg">
+    </audio>
+    <br>
+
+    <!-- <span>-it's an inline container -to markup a part of text -->
+    <span>Span AK</span>
+
+    <!-- <strike> to strike a line through text  
+        Not supported in html-5
+        Instead of this <del></del> or <s></s> can be used-->
+
+    <!-- <strong> To Bold the important text -->
+    <p> <strong>AK</strong> Sivasailam</p>
+
+    <!-- <style>-to style the text -->
+    <style>
+        .style {
+            color: red;
+        }
+    </style>
+
+    <h1 class="style">A heading</h1>
+
+    <!-- <sub>-to appear text half a character below the normal line -->
+    <p>Fabevy an <sub>Teaching institute</sub> in Pavoorchatram </p>
+
+    <!-- <summary>it defines a visible heading in <details> tag-->
+    <details>
+        <summary>Sivasailam</summary>
+        <p>One ofe the most Beautiful Place to see</p>
+    </details>
+
+    <!-- <svg>-accts as a container for SVG Graphics -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+
+    <!--<table> to create table in html doc  -->
+    <table>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+        <tr>
+            <th>Education
+        </tr>
+        <tr>
+            <td>Hsc</td>
+            </th>
+        </tr>
+        </tr>
+    </table>
+
+    <!-- <tbody> to define the heading,body and footer for table -->
+    <table>
+        <thead>
+            <tr>
+                <td>Education</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SSLC</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>HSC</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- <template>-container to hold some HTML content hidden from the user  -->
+    <template>
+        <h2>Flower</h2>
+        <img src="../arun_practice/web/pic/testi-img.jpg" width="214" height="204">
+    </template>
+
+    <!-- <TEXTAREA>-multi-line text input control -->
+        <label for="message">Message</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
 </body>
 
 </html>
