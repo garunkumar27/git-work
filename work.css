@@ -61,3 +61,20 @@ textarea:focus{
 .hover:hover{
     color: #ff0000;
 }
+.transition:hover{
+    color: #ff0000;
+    transition: 1.5s all;
+    
+}
+.descendent p{
+    background-color: aqua;
+}
+.child-attri>p{
+    background-color: blue;
+}
+.adjacent div+p{
+    background-color: yellow;
+}
+.general-sibling div~p{
+    background-color: goldenrod;
+}
