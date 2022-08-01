@@ -1,80 +1,240 @@
-.text-color{
+.text-color {
     color: #ff0000;
-    background-color: rgba(95,15,200,0.5);
+    background-color: rgba(95, 15, 200, 0.5);
 }
-.text-align{
+
+.text-align {
     text-align: center;
 }
-.text-align-last{
+
+.text-align-last {
     text-align-last: left;
 }
-.text-align-direction{
+
+.text-align-direction {
     direction: rtl;
     unicode-bidi: bidi-override;
 }
-.text-vertical-align{
+
+.text-vertical-align {
     vertical-align: sub;
 }
-.text-dec{
-    text-decoration: overline green double 5px; 
+
+.text-dec {
+    text-decoration: overline green double 5px;
 }
-.text-transform{
+
+.text-transform {
     text-transform: uppercase;
 }
-.text-spacing{
+
+.text-spacing {
     letter-spacing: 10px;
 }
-.font-style{
+
+.font-style {
     font-style: oblique;
 }
-.font-style span{
+
+.font-style span {
     font-style: italic;
 }
-.font-weight{
+
+.font-weight {
     font-weight: 900;
     font-size: 25px;
 }
-.font-weight span{
+
+.font-weight span {
     font-weight: 500;
-    font-size:20px;
+    font-size: 20px;
 }
-.color{
+
+.color {
     color: #ff0000;
 }
-.class{
+
+.class {
     background-color: aquamarine;
 }
-*name{
+
+*name {
     background-color: blue;
 }
-#id{
+
+#id {
     background-color: brown;
 }
-textarea:focus{
+
+textarea:focus {
     outline: 2px solid rgb(205, 226, 10);
     border: none;
 }
-.activebox:active{
-    outline:8px solid #ff0000;
+
+.activebox:active {
+    outline: 8px solid #ff0000;
     border: none;
 }
-.hover:hover{
+
+.hover:hover {
     color: #ff0000;
 }
-.transition:hover{
+
+.transition:hover {
     color: #ff0000;
     transition: 1.5s all;
-    
+
 }
-.descendent p{
+
+.transition-timing {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.ease {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    transition: ease width 3s;
+
+}
+
+.linear {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    transition: linear width 3s;
+}
+
+.ease-in {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    transition: ease-in width 3s;
+}
+
+.ease-out {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    background-color: #ffff00;
+    transition: ease-out width 3s;
+}
+
+.ease-in-out {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    background-color: #5c5c48;
+    transition: ease-in-out width 3s;
+}
+
+.ease:hover,
+.linear:hover,
+.ease-in:hover,
+.ease-out:hover,
+.ease-in-out:hover {
+    /* transition: ease width 3s  ; */
+    background-color: #ffff00;
+    width: 500px;
+}
+
+.descendent p {
     background-color: aqua;
 }
-.child-attri>p{
+
+.child-attri>p {
     background-color: blue;
 }
-.adjacent div+p{
-    background-color: yellow;
+
+.adjacent div+p {
+    background-color: #ffff00;
 }
-.general-sibling div~p{
-    background-color: goldenrod;
+
+.general-sibling div~p {
+    background-color: #daa520;
+}
+
+.box-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+
+}
+
+.box-shadow1 {
+    border: 2px solid #000000;
+    height: 130px;
+    box-shadow: 10px 10px 2px 15px #ffff00;
+
+}
+
+.box-shadow2 {
+    border: 2px solid #000000;
+    height: 130px;
+    box-shadow: 2px 0 2px 15px #ff00b3 inset;
+    /* inset bring inside the box */
+}
+
+.box-shadow3 {
+    border: 2px solid #000000;
+    height: 130px;
+    box-shadow: -15px -10px 2px 15px #0004ff;
+    /* negative value go to the opposite direction */
+}
+
+.box-shadow4 {
+    border: 2px solid grey;
+    height: 130px;
+    box-shadow: 2px 2px 0px 10px initial;
+    /* initial- its a default no shadow will be applied */
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+.blur{
+    filter: blur(2px);
+}
+.brightness{
+    filter: brightness(50%);
+}
+.contrast{
+    filter: contrast(80%);
+}
+.grayscale{
+    filter: grayscale(80%);
+}
+.hue-rotate{
+    filter: hue-rotate(50deg);
+}
+.invert{
+    filter: invert(100%);
+}
+.opacity{
+    filter: opacity(0.5);
+}
+.saturation{
+    filter:saturate(80%)
+}
+.sepia{
+    filter: sepia(90%);
+}
+.initial{
+    filter: initial;
+}
+.drop-shadow{
+    filter: drop-shadow(10px 5px 1px yellow);
 }
